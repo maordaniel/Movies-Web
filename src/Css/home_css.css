@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(241, 255, 96, 0.2);
+}
+
+.web_title{
+    display: flex;
+    justify-content: center;
+    font-Style: normal;
+    font-Weight: bold;
+    font-size: 50px;
+    letter-Spacing: 0.996px;
+    color: #66788A;
+    margin-Bottom: 25px;
+  text-decoration: underline;
+}
+
+.movies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie_pic{
+    width: 200px;
+    height: 250px;
+    /*margin: 10px;*/
+}
+
+.filter_select{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+
+select {
+    margin: 10px;
+}
+
+.collpase{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.movie_details{
+    margin-left: 1em;
+    font-size: 14px;
+    color: #141354;
+    font-weight: bold;
+}
+
+h6{
+    color: red;
+}
+
+.add_movie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 10px;
+}
+
+
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+.btn {
+  width: 100px;
+    height: 35px;
+}
+
+#input-group-dropdown-1{
+    width: 430px;
+    height: 100%;
+}
+
+.btn-custom{
+    width: 300px;
+    margin-left: 20px;
+    background-color: #2E4C80;
+}
+
+.add_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
